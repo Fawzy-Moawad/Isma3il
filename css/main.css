@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #dd9446;
+  background: #ec2727;
   color: #eebb81;
 }
 
@@ -411,7 +411,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background: #eebb81;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -427,7 +427,7 @@ section {
     border-bottom: 2px solid rgba(255, 255, 255, 0.8);
     font-size: 16px;
     font-weight: 600;
-    color: #7f7f90;
+    color: #f0e8e1;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -441,12 +441,12 @@ section {
 
   .navbar a:hover,
   .navbar li:hover>a {
-    color: #000;
+    color: #ce1212;
   }
 
   .navbar .active,
   .navbar .active:focus {
-    color: #000;
+    color: #ce1212;
     border-color: var(--color-primary);
   }
 
