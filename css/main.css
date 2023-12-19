@@ -66,7 +66,7 @@ section {
 }
 
 .section-bg {
-  background-color: #eee;
+  background-color: #eebb81;
 }
 
 .section-header {
@@ -170,17 +170,18 @@ section {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
+  background-color: #f0e8e1;
 }
 
 .scroll-top i {
   font-size: 24px;
-  color: #fff;
+  color: #eebb81;
   line-height: 0;
 }
 
 .scroll-top:hover {
-  background: #ec2727;
-  color: #fff;
+  background: #dd9446;
+  color: #eebb81;
 }
 
 .scroll-top.active {
@@ -233,7 +234,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #8c5418;
+  color: #ce1212;
 }
 
 section {
@@ -274,7 +275,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #cd974b;
+    color: #dd9446;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -311,7 +312,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color:  #7c7c74;
+    color:  #ce1212;
   }
 
   .navbar .dropdown ul {
@@ -787,6 +788,7 @@ section {
   background: #fff;
   box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .chefs .chef-member .member-img {
@@ -1060,8 +1062,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #7c7c74;
-  color: #9580a1;
+  background: #eebb81;
+  color: #212529;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1074,8 +1076,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #46423b;
-  color: #9580a1;
+  background: #f0e8e1;
+  color: #dd9446;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1087,7 +1089,8 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #8faf9e;
+  background: #dd9446;
+  color: #f0e8e1;
 }
 
 #footer .copyright {
