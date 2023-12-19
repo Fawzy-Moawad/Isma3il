@@ -180,7 +180,7 @@ section {
 }
 
 .scroll-top:hover {
-  background: #ec2727;
+  background: #dd9446;
   color: #eebb81;
 }
 
@@ -775,18 +775,6 @@ section {
   font-family: var(--font-secondary);
   font-weight: 30px;
   margin-bottom: 5px;
-}
-
-.gallery .tab-content .gallery-item .ingredients {
-  font-family: var(--font-secondary);
-  color: #8d8d9b;
-  margin-bottom: 5px;
-}
-
-.gallery .tab-content .gallery-item .price {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--color-primary);
 }
 
 /*--------------------------------------------------------------
