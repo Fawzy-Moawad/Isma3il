@@ -275,7 +275,7 @@ section {
     font-family: var(--font-secondary);
     font-size: 16px;
     font-weight: 600;
-    color: #dd9446;
+    color: #ce1212;
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -312,7 +312,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color:  #ce1212;
+    color:  #212529;
   }
 
   .navbar .dropdown ul {
@@ -680,7 +680,7 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
-.menu-item button {
+.gallery-item button {
   background: var(--color-primary);
   border: 0;
   padding: 12px 40px;
@@ -689,11 +689,11 @@ section {
   border-radius: 50px;
 }
 
-.menu .nav-tabs {
+.gallery .nav-tabs {
   border: 0;
 }
 
-.menu .nav-link {
+.gallery .nav-link {
   margin: 0 10px;
   padding: 10px 5px;
   transition: 0.3s;
@@ -706,18 +706,18 @@ section {
 }
 
 @media (max-width: 575px) {
-  .menu .nav-link {
+  .gallery .nav-link {
     margin: 0 10px;
     padding: 10px 0;
   }
 }
 
-.menu .nav-link i {
+.gallery .nav-link i {
   padding-right: 15px;
   font-size: 48px;
 }
 
-.menu .nav-link h4 {
+.gallery .nav-link h4 {
   font-size: 18px;
   font-weight: 400;
   margin: 0;
@@ -725,50 +725,50 @@ section {
 }
 
 @media (max-width: 575px) {
-  .menu .nav-link h4 {
+  .gallery .nav-link h4 {
     font-size: 16px;
   }
 }
 
-.menu .nav-link:hover {
+.gallery .nav-link:hover {
   color: var(--color-primary);
 }
 
-.menu .nav-link.active {
+.gallery .nav-link.active {
   color: var(--color-primary);
   border-color: var(--color-primary);
 }
 
-.menu .tab-content .tab-header {
+.gallery .tab-content .tab-header {
   padding: 30px 0;
 }
 
-.menu .tab-content .tab-header p {
+.gallery .tab-content .tab-header p {
   font-size: 14px;
   text-transform: uppercase;
   color: #676775;
   margin-bottom: 0;
 }
 
-.menu .tab-content .tab-header h3 {
+.gallery .tab-content .tab-header h3 {
   font-size: 36px;
   font-weight: 600;
   color: var(--color-primary);
 }
 
-.menu .tab-content .menu-item {
+.gallery .tab-content .gallery-item {
   -moz-text-align-last: center;
   text-align-last: center;
 }
 
-.menu .tab-content .menu-item .menu-img {
+.gallery .tab-content .gallery-item .gallery-img {
   padding: 0 60px;
   margin-bottom: 15px;
   height: 200px;
   object-fit: cover;
 }
 
-.menu .tab-content .menu-item h4 {
+.gallery .tab-content .gallery-item h4 {
   font-size: 22px;
   font-weight: 500;
   color: var(--color-secondary);
@@ -777,13 +777,13 @@ section {
   margin-bottom: 5px;
 }
 
-.menu .tab-content .menu-item .ingredients {
+.gallery .tab-content .gallery-item .ingredients {
   font-family: var(--font-secondary);
   color: #8d8d9b;
   margin-bottom: 5px;
 }
 
-.menu .tab-content .menu-item .price {
+.gallery .tab-content .gallery-item .price {
   font-size: 24px;
   font-weight: 700;
   color: var(--color-primary);
@@ -886,36 +886,36 @@ section {
 /*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
-.gallery {
+.gallery-slider {
   overflow: hidden;
 }
 
-.gallery .swiper-pagination {
+.gallery-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.gallery .swiper-pagination .swiper-pagination-bullet {
+.gallery-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #d1d1d7;
   opacity: 1;
 }
 
-.gallery .swiper-pagination .swiper-pagination-bullet-active {
+.gallery-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
 
-.gallery .swiper-slide-active {
+.gallery-slider .swiper-slide-active {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  .gallery .swiper-wrapper {
+  .gallery-slider .swiper-wrapper {
     padding: 40px 0;
   }
 
-  .gallery .swiper-slide-active {
+  .gallery-slider .swiper-slide-active {
     border: 6px solid var(--color-primary);
     padding: 4px;
     background: #fff;
